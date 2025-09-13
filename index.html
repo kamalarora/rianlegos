@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rian's Lego Galaxy - Build Your Dreams</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>RIAN'S LEGO GALAXY</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sets">Sets</a></li>
+                <li><a href="#themes">Themes</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Search Bar -->
+        <div class="search-container">
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search for LEGO sets..." />
+                <button id="search-btn">🔍</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Build Your Imagination</h2>
+                <p>Discover the endless possibilities of LEGO building with our amazing collection of sets and themes.</p>
+                <button class="cta-button">Explore Sets</button>
+            </div>
+            <div class="lego-animation">
+                <div class="brick brick-red"></div>
+                <div class="brick brick-blue"></div>
+                <div class="brick brick-yellow"></div>
+                <div class="brick brick-green"></div>
+            </div>
+        </section>
+
+        <section id="sets" class="sets-section">
+            <h2>Popular LEGO Sets</h2>
+            <div class="sets-grid">
+                <div class="set-card">
+                    <div class="set-image"></div>
+                    <h3>Creator Expert</h3>
+                    <p>Advanced building experiences for adult fans</p>
+                </div>
+                <div class="set-card">
+                    <div class="set-image"></div>
+                    <h3>Star Wars</h3>
+                    <p>Build iconic ships and characters from a galaxy far, far away</p>
+                </div>
+                <div class="set-card">
+                    <div class="set-image"></div>
+                    <h3>City</h3>
+                    <p>Create your own bustling city with vehicles and buildings</p>
+                </div>
+                <div class="set-card">
+                    <div class="set-image"></div>
+                    <h3>Friends</h3>
+                    <p>Join Emma, Mia, and friends on their adventures</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="themes" class="themes-section">
+            <h2>LEGO Themes</h2>
+            <div class="themes-container">
+                <div class="theme-item" data-theme="architecture">
+                    <div class="theme-image"></div>
+                    <h3>Architecture</h3>
+                    <p>Build famous landmarks and architectural marvels</p>
+                    <div class="theme-sets">
+                        <span>Click to explore sets!</span>
+                    </div>
+                </div>
+                <div class="theme-item" data-theme="technic">
+                    <div class="theme-image"></div>
+                    <h3>Technic</h3>
+                    <p>Advanced mechanical builds with moving parts</p>
+                    <div class="theme-sets">
+                        <span>Click to explore sets!</span>
+                    </div>
+                </div>
+                <div class="theme-item" data-theme="harry-potter">
+                    <div class="theme-image"></div>
+                    <h3>Harry Potter</h3>
+                    <p>Magical sets from the wizarding world</p>
+                    <div class="theme-sets">
+                        <span>Click to explore sets!</span>
+                    </div>
+                </div>
+                <div class="theme-item" data-theme="ninjago">
+                    <div class="theme-image"></div>
+                    <h3>Ninjago</h3>
+                    <p>Join the ninja warriors in their epic battles</p>
+                    <div class="theme-sets">
+                        <span>Click to explore sets!</span>
+                    </div>
+                </div>
+                <div class="theme-item" data-theme="friends">
+                    <div class="theme-image"></div>
+                    <h3>Friends</h3>
+                    <p>Join Emma, Mia, and friends on their adventures</p>
+                    <div class="theme-sets">
+                        <span>Click to explore sets!</span>
+                    </div>
+                </div>
+                <div class="theme-item" data-theme="star-wars">
+                    <div class="theme-image"></div>
+                    <h3>Star Wars</h3>
+                    <p>Build iconic ships and characters from a galaxy far, far away</p>
+                    <div class="theme-sets">
+                        <span>Click to explore sets!</span>
+                    </div>
+                </div>
+                <div class="theme-item special-theme" data-theme="biggest-legos">
+                    <div class="theme-image"></div>
+                    <h3>Rian's Biggest LEGOs</h3>
+                    <p>The most massive and impressive LEGO sets ever created</p>
+                    <div class="theme-sets">
+                        <span>Click to explore sets!</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Theme Sets Display Area -->
+            <div id="theme-sets-display" class="theme-sets-display" style="display: none;">
+                <h3 id="theme-title"></h3>
+                <div id="theme-sets-grid" class="theme-sets-grid"></div>
+                <button id="close-theme-sets" class="close-theme-btn">Close</button>
+            </div>
+            
+            <!-- Search Results Display Area -->
+            <div id="search-results-display" class="search-results-display" style="display: none;">
+                <h3 id="search-results-title">Search Results</h3>
+                <div id="search-results-grid" class="search-results-grid"></div>
+                <button id="close-search-results" class="close-search-btn">Close</button>
+            </div>
+        </section>
+
+
+        <section id="about" class="about-section">
+            <h2>About LEGO</h2>
+            <div class="about-content">
+                <p>LEGO has been inspiring builders of all ages since 1958. With the iconic interlocking brick system, creativity knows no bounds. From simple builds to complex architectural marvels, LEGO continues to be the ultimate building experience.</p>
+                <div class="stats">
+                    <div class="stat">
+                        <h3>65+</h3>
+                        <p>Years of Innovation</p>
+                    </div>
+                    <div class="stat">
+                        <h3>400B+</h3>
+                        <p>Bricks Produced</p>
+                    </div>
+                    <div class="stat">
+                        <h3>1000+</h3>
+                        <p>Different Sets</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Rian's Lego Galaxy. Build responsibly!</p>
+            <div class="footer-links">
+                <a href="#privacy">Privacy</a>
+                <a href="#terms">Terms</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
