@@ -155,7 +155,7 @@ document.addEventListener('DOMContentLoaded', function() {
             { name: 'Tower Bridge', description: 'London\'s famous bascule bridge', image: 'images/tower-bridge.jpg' }
         ],
         'technic': [
-            { name: 'Mercedes-AMG F1 W14', description: 'Formula 1 racing car with working steering', image: 'images/mercedes-f1.jpg' },
+            { name: 'Mercedes-AMG F1 W14', description: 'Formula 1 racing car with working steering', image: 'images/mercedes-amg-f1-new.jpg' },
             { name: 'Porsche 911 GT3 RS', description: 'Detailed sports car replica', image: 'images/porsche-911.jpg' },
             { name: 'Liebherr Excavator', description: 'Heavy machinery with moving parts', image: 'images/liebherr.jpg' },
             { name: 'Bugatti Chiron', description: 'Supercar with W16 engine', image: 'images/bugatti.jpg' },
@@ -173,7 +173,6 @@ document.addEventListener('DOMContentLoaded', function() {
         'ninjago': [
             { name: 'Golden Dragon', description: 'Majestic dragon with poseable wings', image: 'images/golden-dragon.jpg' },
             { name: 'Destiny\'s Bounty', description: 'Flying ninja ship', image: 'images/destinys-bounty.jpg' },
-            { name: 'Monastery of Spinjitzu', description: 'Training ground for ninjas', image: 'images/monastery.jpg' },
             { name: 'Fire Temple', description: 'Ancient temple with traps', image: 'images/fire-temple.jpg' },
             { name: 'Ultra Dragon', description: 'Four-headed elemental dragon', image: 'images/ultra-dragon.jpg' },
             { name: 'Ninja DB X', description: 'High-tech ninja vehicle', image: 'images/ninja-db-x.jpg' }
@@ -181,7 +180,6 @@ document.addEventListener('DOMContentLoaded', function() {
         'friends': [
             { name: 'Beach House', description: 'Seaside vacation home with pool', image: 'images/friends-beach-house.jpg' },
             { name: 'Heartlake City Park Café', description: 'Outdoor café with playground', image: 'images/friends-cafe.jpg' },
-            { name: 'Horse Stable', description: 'Take care of horses with Emma and Mia', image: 'images/friends-horse-stable.jpg' },
             { name: 'Heartlake City Vet Clinic', description: 'Animal hospital for pets', image: 'images/friends-vet-clinic.jpg' },
             { name: 'Nature Glamping', description: 'Outdoor camping adventure', image: 'images/friends-glamping.jpg' },
             { name: 'Heartlake City School', description: 'Educational fun with friends', image: 'images/friends-heartlake.jpg' }
@@ -218,7 +216,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: 'Tower Bridge', description: 'London\'s famous bascule bridge', image: 'images/tower-bridge.jpg', theme: 'Architecture', section: 'Architecture Theme' },
         
         // Technic Theme Sets
-        { name: 'Mercedes-AMG F1 W14', description: 'Formula 1 racing car with working steering', image: 'images/mercedes-f1.jpg', theme: 'Technic', section: 'Technic Theme' },
+        { name: 'Mercedes-AMG F1 W14', description: 'Formula 1 racing car with working steering', image: 'images/mercedes-amg-f1-new.jpg', theme: 'Technic', section: 'Technic Theme' },
         { name: 'Porsche 911 GT3 RS', description: 'Detailed sports car replica', image: 'images/porsche-911.jpg', theme: 'Technic', section: 'Technic Theme' },
         { name: 'Liebherr Excavator', description: 'Heavy machinery with moving parts', image: 'images/liebherr.jpg', theme: 'Technic', section: 'Technic Theme' },
         { name: 'Bugatti Chiron', description: 'Supercar with W16 engine', image: 'images/bugatti.jpg', theme: 'Technic', section: 'Technic Theme' },
@@ -236,7 +234,6 @@ document.addEventListener('DOMContentLoaded', function() {
         // Ninjago Theme Sets
         { name: 'Golden Dragon', description: 'Majestic dragon with poseable wings', image: 'images/golden-dragon.jpg', theme: 'Ninjago', section: 'Ninjago Theme' },
         { name: 'Destiny\'s Bounty', description: 'Flying ninja ship', image: 'images/destinys-bounty.jpg', theme: 'Ninjago', section: 'Ninjago Theme' },
-        { name: 'Monastery of Spinjitzu', description: 'Training ground for ninjas', image: 'images/monastery.jpg', theme: 'Ninjago', section: 'Ninjago Theme' },
         { name: 'Fire Temple', description: 'Ancient temple with traps', image: 'images/fire-temple.jpg', theme: 'Ninjago', section: 'Ninjago Theme' },
         { name: 'Ultra Dragon', description: 'Four-headed elemental dragon', image: 'images/ultra-dragon.jpg', theme: 'Ninjago', section: 'Ninjago Theme' },
         { name: 'Ninja DB X', description: 'High-tech ninja vehicle', image: 'images/ninja-db-x.jpg', theme: 'Ninjago', section: 'Ninjago Theme' },
@@ -244,7 +241,6 @@ document.addEventListener('DOMContentLoaded', function() {
         // Friends Theme Sets
         { name: 'Beach House', description: 'Seaside vacation home with pool', image: 'images/friends-beach-house.jpg', theme: 'Friends', section: 'Friends Theme' },
         { name: 'Heartlake City Park Café', description: 'Outdoor café with playground', image: 'images/friends-cafe.jpg', theme: 'Friends', section: 'Friends Theme' },
-        { name: 'Horse Stable', description: 'Take care of horses with Emma and Mia', image: 'images/friends-horse-stable.jpg', theme: 'Friends', section: 'Friends Theme' },
         { name: 'Heartlake City Vet Clinic', description: 'Animal hospital for pets', image: 'images/friends-vet-clinic.jpg', theme: 'Friends', section: 'Friends Theme' },
         { name: 'Nature Glamping', description: 'Outdoor camping adventure', image: 'images/friends-glamping.jpg', theme: 'Friends', section: 'Friends Theme' },
         { name: 'Heartlake City School', description: 'Educational fun with friends', image: 'images/friends-heartlake.jpg', theme: 'Friends', section: 'Friends Theme' },
@@ -268,7 +264,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: 'Volkswagen Beetle (10252)', description: 'Classic blue Volkswagen Beetle', image: 'images/creator-expert.jpg', theme: 'Creator Expert', section: 'Creator Expert' },
         { name: 'MINI Cooper (10242)', description: 'Green and white MINI Cooper MK VII', image: 'images/creator-expert.jpg', theme: 'Creator Expert', section: 'Creator Expert' },
         { name: 'London Bus (10258)', description: 'Red double-decker London bus', image: 'images/creator-expert.jpg', theme: 'Creator Expert', section: 'Creator Expert' },
-        { name: 'Winter Holiday Train (10254)', description: 'Festive Christmas train set', image: 'images/creator-expert.jpg', theme: 'Creator Expert', section: 'Creator Expert' },
+        { name: 'Winter Holiday Train (10254)', description: 'Festive Christmas train set', image: 'images/winter-holiday-train.jpg', theme: 'Creator Expert', section: 'Creator Expert' },
         
         // Marvel Super Heroes
         { name: 'Spider-Man Daily Bugle (76178)', description: 'Massive Daily Bugle building with minifigures', image: 'images/daily-bugle.jpg', theme: 'Marvel', section: 'Marvel Sets' },
@@ -290,18 +286,16 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: 'Royal Knight\'s Castle (6090)', description: 'Royal castle with drawbridge', image: 'images/gallery1.jpg', theme: 'Castle', section: 'Castle Sets' },
         
         // Trains
-        { name: 'Crocodile Locomotive (10277)', description: 'Swiss electric locomotive', image: 'images/gallery2.jpg', theme: 'Trains', section: 'Train Sets' },
-        { name: 'Horizon Express (10233)', description: 'High-speed passenger train', image: 'images/gallery2.jpg', theme: 'Trains', section: 'Train Sets' },
-        { name: 'Cargo Train (60198)', description: 'Remote-controlled cargo train', image: 'images/gallery2.jpg', theme: 'Trains', section: 'Train Sets' },
+        { name: 'Horizon Express (10233)', description: 'High-speed passenger train', image: 'images/horizon-express.jpg', theme: 'Trains', section: 'Train Sets' },
         
         // Jurassic World
         { name: 'T. rex Breakout (76956)', description: 'T-Rex escape scene with gates', image: 'images/gallery3.jpg', theme: 'Jurassic World', section: 'Jurassic Sets' },
         { name: 'Baryonyx Face-Off (75935)', description: 'Treasure hunt with Baryonyx dinosaur', image: 'images/gallery3.jpg', theme: 'Jurassic World', section: 'Jurassic Sets' },
         
         // Speed Champions
-        { name: 'Ferrari F8 Tributo (76895)', description: 'Italian supercar replica', image: 'images/gallery3.jpg', theme: 'Speed Champions', section: 'Speed Champions' },
-        { name: 'McLaren Senna (75892)', description: 'Track-focused hypercar', image: 'images/gallery3.jpg', theme: 'Speed Champions', section: 'Speed Champions' },
-        { name: 'Lamborghini Huracán Super Trofeo EVO (76899)', description: 'Race car with pit lane', image: 'images/gallery3.jpg', theme: 'Speed Champions', section: 'Speed Champions' },
+        { name: 'Ferrari F8 Tributo (76895)', description: 'Italian supercar replica', image: 'images/ferrari-f8-tributo.jpg', theme: 'Speed Champions', section: 'Speed Champions' },
+        { name: 'McLaren Senna (75892)', description: 'Track-focused hypercar', image: 'images/mclaren-senna-speed.jpg', theme: 'Speed Champions', section: 'Speed Champions' },
+        { name: 'Lamborghini Huracán Super Trofeo EVO (76899)', description: 'Race car with pit lane', image: 'images/lamborghini-huracan.jpg', theme: 'Speed Champions', section: 'Speed Champions' },
         
         // Ideas Sets
         { name: 'Piano (21323)', description: 'Grand piano with working keys', image: 'images/gallery4.jpg', theme: 'Ideas', section: 'Ideas Sets' },
@@ -319,7 +313,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: 'Ecto-1 (21108)', description: 'Classic Ghostbusters vehicle', image: 'images/gallery6.jpg', theme: 'Ghostbusters', section: 'Ghostbusters Sets' },
         
         // Back to the Future
-        { name: 'DeLorean Time Machine (10300)', description: 'Time traveling DeLorean car', image: 'images/gallery6.jpg', theme: 'Back to the Future', section: 'Movie Sets' },
+        { name: 'DeLorean Time Machine (10300)', description: 'Time traveling DeLorean car', image: 'images/delorean-time-machine.jpg', theme: 'Back to the Future', section: 'Movie Sets' },
         
         // Stranger Things
         { name: 'The Upside Down (75810)', description: 'Hawkins house with Upside Down version', image: 'images/gallery6.jpg', theme: 'Stranger Things', section: 'TV Sets' },
@@ -366,14 +360,12 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: 'Sopwith Camel (10226)', description: 'World War I biplane fighter', image: 'images/sopwith-camel.jpg', theme: 'Creator Expert', section: 'Aviation Sets' },
         { name: 'Wright Flyer (10124)', description: 'First powered aircraft', image: 'images/wright-flyer.jpg', theme: 'Creator Expert', section: 'Aviation Sets' },
         { name: 'Airplane (31099)', description: 'Propeller plane 3-in-1', image: 'images/propeller-plane.jpg', theme: 'Creator 3-in-1', section: 'Aviation Sets' },
-        { name: 'Cargo Plane (31109)', description: 'Heavy transport aircraft 3-in-1', image: 'images/cargo-plane.jpg', theme: 'Creator 3-in-1', section: 'Aviation Sets' },
         { name: 'Supersonic Jet (31126)', description: 'Fighter jet 3-in-1', image: 'images/supersonic-jet.jpg', theme: 'Creator 3-in-1', section: 'Aviation Sets' },
         { name: 'Air Race Plane (42117)', description: 'Stunt plane with working propeller', image: 'images/air-race-plane.jpg', theme: 'Technic', section: 'Aviation Sets' },
         { name: 'Rescue Helicopter (42092)', description: 'Emergency helicopter with winch', image: 'images/rescue-helicopter.jpg', theme: 'Technic', section: 'Aviation Sets' },
         { name: 'Fire Helicopter (60281)', description: 'Firefighting helicopter', image: 'images/fire-helicopter.jpg', theme: 'City', section: 'Aviation Sets' },
         { name: 'Police Helicopter (60275)', description: 'Law enforcement aircraft', image: 'images/police-helicopter.jpg', theme: 'City', section: 'Aviation Sets' },
         { name: 'Passenger Airplane (60262)', description: 'Commercial airliner', image: 'images/passenger-airplane.jpg', theme: 'City', section: 'Aviation Sets' },
-        { name: 'Cargo Terminal (60169)', description: 'Airport with cargo plane', image: 'images/cargo-terminal.jpg', theme: 'City', section: 'Aviation Sets' },
         { name: 'Private Jet (60102)', description: 'Luxury business aircraft', image: 'images/private-jet.jpg', theme: 'City', section: 'Aviation Sets' },
         { name: 'Seaplane (31028)', description: 'Water landing aircraft', image: 'images/seaplane.jpg', theme: 'Creator 3-in-1', section: 'Aviation Sets' },
         
@@ -382,48 +374,44 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: 'Porsche 911 GT3 RS (42056)', description: 'Sports car with PDK transmission', image: 'images/porsche-911-gt3.jpg', theme: 'Technic', section: 'Car Sets' },
         { name: 'McLaren Senna GTR (42123)', description: 'Track-focused supercar', image: 'images/mclaren-senna.jpg', theme: 'Technic', section: 'Car Sets' },
         { name: 'Lamborghini Sián FKP 37 (42115)', description: 'Hybrid supercar', image: 'images/lamborghini-sian.jpg', theme: 'Technic', section: 'Car Sets' },
-        { name: 'Ferrari Daytona SP3 (42143)', description: 'Limited edition supercar', image: 'images/ferrari-daytona.jpg', theme: 'Technic', section: 'Car Sets' },
+        { name: 'Ferrari Daytona SP3 (42143)', description: 'Limited edition supercar', image: 'images/ferrari-daytona-sp3.jpg', theme: 'Technic', section: 'Car Sets' },
         { name: 'BMW M4 GT3 (42127)', description: 'Race car with detailed interior', image: 'images/bmw-m4-gt3.jpg', theme: 'Technic', section: 'Car Sets' },
-        { name: 'Formula 1 Car (42000)', description: 'F1 racing car', image: 'images/formula-1-car.jpg', theme: 'Technic', section: 'Car Sets' },
-        { name: 'Rally Car (42077)', description: 'Off-road racing vehicle', image: 'images/rally-car.jpg', theme: 'Technic', section: 'Car Sets' },
-        { name: 'Police Car (60312)', description: 'Law enforcement vehicle', image: 'images/police-car.jpg', theme: 'City', section: 'Car Sets' },
-        { name: 'Fire Chief Car (60231)', description: 'Emergency response vehicle', image: 'images/fire-chief-car.jpg', theme: 'City', section: 'Car Sets' },
+        { name: 'Formula 1 Car (42000)', description: 'F1 racing car', image: 'images/formula-1-car-42000.jpg', theme: 'Technic', section: 'Car Sets' },
+        { name: 'Rally Car (42077)', description: 'Off-road racing vehicle', image: 'images/rally-car-42077.jpg', theme: 'Technic', section: 'Car Sets' },
+        { name: 'Police Car (60312)', description: 'Law enforcement vehicle', image: 'images/police-car-60312.jpg', theme: 'City', section: 'Car Sets' },
+        { name: 'Fire Chief Car (60231)', description: 'Emergency response vehicle', image: 'images/fire-chief-car-60231.jpg', theme: 'City', section: 'Car Sets' },
         { name: 'Sports Car (31100)', description: 'Convertible sports car 3-in-1', image: 'images/sports-car-31100.jpg', theme: 'Creator 3-in-1', section: 'Car Sets' },
         { name: 'Race Car (31127)', description: 'Formula racing car 3-in-1', image: 'images/race-car-31127.jpg', theme: 'Creator 3-in-1', section: 'Car Sets' },
-        { name: 'Cyber Truck (31142)', description: 'Futuristic electric vehicle 3-in-1', image: 'images/cyber-truck.jpg', theme: 'Creator 3-in-1', section: 'Car Sets' },
-        { name: 'Vintage Car (10242)', description: 'Classic Mini Cooper', image: 'images/mini-cooper.jpg', theme: 'Creator Expert', section: 'Car Sets' },
-        { name: 'Volkswagen Beetle (10252)', description: 'Classic VW Bug', image: 'images/vw-beetle.jpg', theme: 'Creator Expert', section: 'Car Sets' },
-        { name: 'Ford Mustang (10265)', description: 'American muscle car', image: 'images/ford-mustang.jpg', theme: 'Creator Expert', section: 'Car Sets' },
-        { name: 'Aston Martin DB5 (10262)', description: 'James Bond car with gadgets', image: 'images/aston-martin-db5.jpg', theme: 'Creator Expert', section: 'Car Sets' },
+        { name: 'Vintage Car (10242)', description: 'Classic Mini Cooper', image: 'images/mini-cooper-10242.jpg', theme: 'Creator Expert', section: 'Car Sets' },
+        { name: 'Volkswagen Beetle (10252)', description: 'Classic VW Bug', image: 'images/vw-beetle-10252.jpg', theme: 'Creator Expert', section: 'Car Sets' },
+        { name: 'Ford Mustang (10265)', description: 'American muscle car', image: 'images/ford-mustang-10265.jpg', theme: 'Creator Expert', section: 'Car Sets' },
+        { name: 'Aston Martin DB5 (10262)', description: 'James Bond car with gadgets', image: 'images/aston-martin-db5-10262.jpg', theme: 'Creator Expert', section: 'Car Sets' },
         
         // TRUCK SETS - All LEGO Trucks
         { name: 'Liebherr Excavator R 9800 (42100)', description: 'Mining truck with massive wheels', image: 'images/liebherr-excavator.jpg', theme: 'Technic', section: 'Truck Sets' },
         { name: 'Mack Anthem (42078)', description: 'Semi-truck with trailer', image: 'images/mack-anthem.jpg', theme: 'Technic', section: 'Truck Sets' },
         { name: 'Mercedes-Benz Arocs (42043)', description: 'Construction truck', image: 'images/mercedes-arocs.jpg', theme: 'Technic', section: 'Truck Sets' },
-        { name: 'CLAAS XERION 5000 TRAC VC (42054)', description: 'Agricultural tractor', image: 'images/claas-xerion.jpg', theme: 'Technic', section: 'Truck Sets' },
-        { name: 'Volvo Concept Wheel Loader ZEUX (42081)', description: 'Future construction vehicle', image: 'images/volvo-zeux.jpg', theme: 'Technic', section: 'Truck Sets' },
+        { name: 'CLAAS XERION 5000 TRAC VC (42054)', description: 'Agricultural tractor', image: 'images/claas-xerion-42054.jpg', theme: 'Technic', section: 'Truck Sets' },
+        { name: 'Volvo Concept Wheel Loader ZEUX (42081)', description: 'Future construction vehicle', image: 'images/volvo-zeux-42081.jpg', theme: 'Technic', section: 'Truck Sets' },
         { name: 'Concrete Mixer Truck (42112)', description: 'Construction mixing truck', image: 'images/concrete-mixer.jpg', theme: 'Technic', section: 'Truck Sets' },
-        { name: 'Rough Terrain Crane (42082)', description: 'Mobile crane truck', image: 'images/rough-terrain-crane.jpg', theme: 'Technic', section: 'Truck Sets' },
+        { name: 'Rough Terrain Crane (42082)', description: 'Mobile crane truck', image: 'images/rough-terrain-crane-42082.jpg', theme: 'Technic', section: 'Truck Sets' },
         { name: 'Fire Truck (60279)', description: 'Ladder truck with platform', image: 'images/fire-truck-60279.jpg', theme: 'City', section: 'Truck Sets' },
-        { name: 'Garbage Truck (60220)', description: 'Waste collection vehicle', image: 'images/garbage-truck.jpg', theme: 'City', section: 'Truck Sets' },
-        { name: 'Delivery Truck (60117)', description: 'Package delivery vehicle', image: 'images/delivery-truck.jpg', theme: 'City', section: 'Truck Sets' },
-        { name: 'Monster Truck (31101)', description: 'Off-road truck 3-in-1', image: 'images/monster-truck.jpg', theme: 'Creator 3-in-1', section: 'Truck Sets' },
-        { name: 'Construction Bulldozer (31121)', description: 'Earth moving vehicle 3-in-1', image: 'images/construction-bulldozer.jpg', theme: 'Creator 3-in-1', section: 'Truck Sets' },
-        { name: 'Pickup Truck (31103)', description: 'Utility truck 3-in-1', image: 'images/pickup-truck.jpg', theme: 'Creator 3-in-1', section: 'Truck Sets' },
+        { name: 'Garbage Truck (60220)', description: 'Waste collection vehicle', image: 'images/garbage-truck-60220.jpg', theme: 'City', section: 'Truck Sets' },
+        { name: 'Delivery Truck (60117)', description: 'Package delivery vehicle', image: 'images/delivery-truck-exact.jpg', theme: 'City', section: 'Truck Sets' },
+        { name: 'Monster Truck (31101)', description: 'Off-road truck 3-in-1', image: 'images/monster-truck-31101.jpg', theme: 'Creator 3-in-1', section: 'Truck Sets' },
+        { name: 'Construction Bulldozer (31121)', description: 'Earth moving vehicle 3-in-1', image: 'images/bulldozer-alt.jpg', theme: 'Creator 3-in-1', section: 'Truck Sets' },
+        { name: 'Pickup Truck (31103)', description: 'Utility truck 3-in-1', image: 'images/pickup-truck-exact.jpg', theme: 'Creator 3-in-1', section: 'Truck Sets' },
         
         // TRAIN SETS - All LEGO Trains
         { name: 'Hogwarts Express (76405)', description: 'Magical train to Hogwarts', image: 'images/hogwarts-express-76405.jpg', theme: 'Harry Potter', section: 'Train Sets' },
         { name: 'Crocodile Locomotive (10277)', description: 'Historic electric locomotive', image: 'images/crocodile-locomotive.jpg', theme: 'Creator Expert', section: 'Train Sets' },
         { name: 'Emerald Night (10194)', description: 'Steam locomotive with tender', image: 'images/emerald-night.jpg', theme: 'Creator Expert', section: 'Train Sets' },
         { name: 'Passenger Train (60197)', description: 'Modern electric train', image: 'images/passenger-train-60197.jpg', theme: 'City', section: 'Train Sets' },
-        { name: 'Cargo Train (60198)', description: 'Freight locomotive with cars', image: 'images/cargo-train-60198.jpg', theme: 'City', section: 'Train Sets' },
         { name: 'High-speed Passenger Train (60051)', description: 'Bullet train', image: 'images/high-speed-train.jpg', theme: 'City', section: 'Train Sets' },
-        { name: 'Steam Train (31130)', description: 'Classic locomotive 3-in-1', image: 'images/steam-train-31130.jpg', theme: 'Creator 3-in-1', section: 'Train Sets' },
+        { name: 'Steam Train (31130)', description: 'Classic locomotive 3-in-1', image: 'images/steam-locomotive-new.jpg', theme: 'Creator 3-in-1', section: 'Train Sets' },
         { name: 'Train Station (60335)', description: 'Railway platform and building', image: 'images/train-station.jpg', theme: 'City', section: 'Train Sets' },
-        { name: 'Freight Train (7939)', description: 'Cargo locomotive with remote control', image: 'images/freight-train-7939.jpg', theme: 'City', section: 'Train Sets' },
         { name: 'Maersk Train (10219)', description: 'Container freight train', image: 'images/maersk-train.jpg', theme: 'Creator Expert', section: 'Train Sets' },
         { name: 'Santa Fe Super Chief (10020)', description: 'American passenger train', image: 'images/santa-fe-train.jpg', theme: 'Creator Expert', section: 'Train Sets' },
-        { name: 'Union Pacific Big Boy (10023)', description: 'Massive steam locomotive', image: 'images/big-boy-train.jpg', theme: 'Creator Expert', section: 'Train Sets' }
     ];
     
     themeItems.forEach(item => {
